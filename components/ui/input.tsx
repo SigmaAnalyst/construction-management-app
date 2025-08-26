@@ -1,0 +1,1 @@
+import * as React from "react"; export function Input(p:React.InputHTMLAttributes<HTMLInputElement>){ return <input {...p} className={"w-full h-10 px-3 border rounded-md bg-white "+(p.className||"")} />}; export default Input;

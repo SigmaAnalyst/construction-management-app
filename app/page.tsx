@@ -1,0 +1,1 @@
+export default function Page(){ return <div style={{padding:20}}>Project files created. Replace app/page.tsx with your page.</div>; }

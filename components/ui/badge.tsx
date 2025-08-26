@@ -1,0 +1,1 @@
+import * as React from "react"; export function Badge({className,...p}:React.HTMLAttributes<HTMLSpanElement>){ return <span {...p} className={(className?className+" ":"")+"px-2 py-1 text-xs border rounded-md"} />}; export default Badge;
